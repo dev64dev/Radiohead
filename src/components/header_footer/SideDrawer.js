@@ -55,7 +55,7 @@ const SideDrawer = props => {
               scrollToElement("pricing");
             }}
           >
-            Priceing
+            Pricing
           </ListItem>
 
           <ListItem

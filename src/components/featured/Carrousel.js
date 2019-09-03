@@ -1,11 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import Lenny1 from "../../resources/images/Lenny1.jpg";
-import Lenny2 from "../../resources/images/Lenny2.jpg";
-import Lenny3 from "../../resources/images/Lenny3.jpg";
-import Lenny4 from "../../resources/images/Lenny4.jpg";
-import Lenny5 from "../../resources/images/Lenny5.jpg";
-import Lenny6 from "../../resources/images/Lenny6.jpg";
+import radiohead1 from "../../resources/images/radiohead1.jpg";
+import radiohead2 from "../../resources/images/radiohead2.jpg";
+import radiohead3 from "../../resources/images/radiohead3.jpg";
 
 const Carrousel = () => {
   const settings = {
@@ -29,7 +26,7 @@ const Carrousel = () => {
             className="carrousel_image"
             style={{
               height: `${window.innerHeight}px`,
-              background: `url(${Lenny1})`
+              background: `url(${radiohead1})`
             }}
           ></div>
         </div>
@@ -38,7 +35,7 @@ const Carrousel = () => {
             className="carrousel_image"
             style={{
               height: `${window.innerHeight}px`,
-              background: `url(${Lenny2})`
+              background: `url(${radiohead2})`
             }}
           ></div>
         </div>
@@ -47,34 +44,7 @@ const Carrousel = () => {
             className="carrousel_image"
             style={{
               height: `${window.innerHeight}px`,
-              background: `url(${Lenny3})`
-            }}
-          ></div>
-        </div>
-        <div>
-          <div
-            className="carrousel_image"
-            style={{
-              height: `${window.innerHeight}px`,
-              background: `url(${Lenny4})`
-            }}
-          ></div>
-        </div>
-        <div>
-          <div
-            className="carrousel_image"
-            style={{
-              height: `${window.innerHeight}px`,
-              background: `url(${Lenny5})`
-            }}
-          ></div>
-        </div>
-        <div>
-          <div
-            className="carrousel_image"
-            style={{
-              height: `${window.innerHeight}px`,
-              background: `url(${Lenny6})`
+              background: `url(${radiohead3})`
             }}
           ></div>
         </div>
