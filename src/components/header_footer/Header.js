@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import MenuIcon from "@material-ui/core/Menu";
+import DehazeIcon from "@material-ui/icons/Dehaze";
 import IconButton from "@material-ui/core/IconButton";
 import SideDrawer from "./SideDrawer";
 
@@ -59,9 +59,8 @@ class Header extends Component {
               aria-label="Menu"
               color="inherit"
               onClick={() => this.toggleDrawer(true)}
-              style={{ backgroundColor: "blue" }}
             >
-              <MenuIcon />
+              <DehazeIcon />
             </IconButton>
             <SideDrawer
               open={this.state.draweOpen}
