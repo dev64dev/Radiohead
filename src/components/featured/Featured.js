@@ -5,9 +5,9 @@ const Featured = () => {
   return (
     <div style={{ position: "relative" }}>
       <Carrousel />
-      <div className="artist_name">
-        <div className="wrapper">RADIOHEAD</div>
-      </div>
+      {/* <div className="artist_name">
+        <div className="wrapper">RADIOHEAD</div> */}
+      {/* </div> */}
     </div>
   );
 };

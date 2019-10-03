@@ -34,8 +34,12 @@ class Discount extends Component {
           </Fade>
           <Slide right>
             <div className="discount_description">
-              <h3>Happy Birthday To My little Princess</h3>
-              <p>Lenny is 4 and we are realy realy happy for her</p>
+              <h3>OK COMPUTER TOUR</h3>
+              <p>
+                OK Computer is the third studio album by English rock band
+                Radiohead, released on 16 June 1997 on EMI subsidiaries
+                Parlophone and Capitol Records.
+              </p>
 
               <MyButtons
                 text="Purchase Tickets"

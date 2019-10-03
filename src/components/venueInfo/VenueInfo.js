@@ -18,7 +18,7 @@ function VenueInfo() {
                     style={{ background: `url(${icon_calendar})` }}
                   ></div>
                   <div className="vn_title">Event Date & Time</div>
-                  <div className="vn_desc">26 September 2019</div>
+                  <div className="vn_desc">31 Dec 2019</div>
                 </div>
               </div>
             </div>
@@ -33,7 +33,7 @@ function VenueInfo() {
                     style={{ background: `url(${icon_location})` }}
                   ></div>
                   <div className="vn_title">Event Location</div>
-                  <div className="vn_desc">Tel Aviv</div>
+                  <div className="vn_desc">London</div>
                 </div>
               </div>
             </div>

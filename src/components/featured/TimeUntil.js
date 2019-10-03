@@ -3,7 +3,7 @@ import Slide from "react-reveal/Slide";
 
 class TimeUntil extends Component {
   state = {
-    deadline: "Sep, 26,2019",
+    deadline: "Dec, 31,2019",
     days: 0,
     hours: 0,
     minuts: 0,
@@ -13,7 +13,7 @@ class TimeUntil extends Component {
   getTimeUntil(deadline) {
     const time = Date.parse(deadline) - Date.parse(new Date());
     if (time < 0) {
-      console.log("time...");
+      console.log("time passed..");
     } else {
       const seconds = Math.floor((time / 1000) % 60);
       const minuts = Math.floor((time / 1000 / 60) % 60);

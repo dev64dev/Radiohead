@@ -14,7 +14,6 @@ const App = () => {
   return (
     <div className="App" style={{ height: "1500px" }}>
       <Header />
-
       <scrollElement name="header">
         <Featured />
       </scrollElement>

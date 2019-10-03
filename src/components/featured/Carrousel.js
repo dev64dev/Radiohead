@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import radiohead1 from "../../resources/images/radiohead1.jpg";
 import radiohead2 from "../../resources/images/radiohead2.jpg";
-import radiohead3 from "../../resources/images/radiohead3.jpg";
+import radiohead3 from "../../resources/images/radiohead3.png";
 
 const Carrousel = () => {
   const settings = {
